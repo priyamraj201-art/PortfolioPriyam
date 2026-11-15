@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Priyam Raj — Portfolio</title>
+  <meta name="description" content="Portfolio of Priyam Raj — IT student building web and AI projects." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="cursor" aria-hidden="true"></div>
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="Home">PR</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#design">Design</a>
+      <a href="#contact">Contact</a>
+      <button id="theme" class="icon-btn" aria-label="Toggle theme">◐</button>
+      <a class="btn btn-sm" href="https://github.com/priyamraj201-art" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="grid-bg" aria-hidden="true"><div class="hero__lines"></div><div class="hero__glow"></div></div>
+      <div class="hero__light" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">PUNE, INDIA <span class="line"></span></p>
+        <h1><span class="name__line"><span>PRIYAM</span></span><span class="name__line"><span>RAJ</span></span></h1>
+        <p class="tagline">IT student building <b>web apps and AI projects</b> that actually ship.</p>
+        <div class="hero-actions">
+          <a class="btn cta" href="#work"><span class="cta__fill" aria-hidden="true"></span><span class="cta__text">See the work</span> <span class="dot-arrow">→</span></a>
+          <div class="pill-note"><i></i> There's a more fun version of this <em>highly recommended</em></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">ABOUT <span class="line"></span></p>
+        <h2>Hi there!</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead reveal">I am a B.Tech IT student at AIT Pune with interests in UI/UX, software development and AI. I build things at hackathons, and I help run events as a member of E-Cell, AIT Pune.</p>
+          <div class="card reveal">
+          <h3>Quick facts</h3>
+          <ul>
+            <li>📍 Pune (originally Ranchi, Jharkhand)</li>
+            <li>🎓 B.Tech IT, Army Institute of Technology, Pune</li>
+            <li>🤝 Member, E-Cell AIT Pune (since Feb 2026)</li>
+          </ul>
+        </div>
+        </div>
+        <img class="photo reveal" src="photo.jpg" alt="Priyam Raj speaking at a podium" width="200" height="200" />
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">TOOLBOX <span class="line"></span></p>
+        <h2>What I build with</h2>
+      </div>
+      <div class="skills" id="skills-list"></div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">EXPERIENCE <span class="line"></span></p>
+        <h2>Where I've been</h2>
+      </div>
+      <div class="timeline" id="exp-list"></div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">SELECTED WORK <span class="line"></span></p>
+        <h2>Top builds</h2>
+      </div>
+      <div class="projects" id="project-list"></div>
+    </section>
+
+    <!-- DESIGN -->
+    <section id="design" class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">DESIGN WORK <span class="line"></span></p>
+        <h2>Interfaces &amp; visuals</h2>
+      </div>
+      <p class="lead design-lead reveal">UI/UX, posters and brand work. Click any piece to view it larger.</p>
+      <div class="design-grid" id="design-list"></div>
+    </section>
+
+    <!-- REST -->
+    <section class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">THE REST OF IT <span class="line"></span></p>
+        <h2>Education, awards, writing</h2>
+      </div>
+      <div class="rest">
+        <div class="card reveal"><h3>Education</h3><p>B.Tech Information Technology<br /><span class="muted">Army Institute of Technology, Pune</span></p></div>
+        <div class="card reveal"><h3>Awards</h3><p>VentureX Hackathon · Top 10 of 1000+ teams<br /><span class="muted">Final round at IIT (ISM) Dhanbad, 2026</span></p></div>
+        <div class="card reveal"><h3>Writing</h3><p><a href="https://www.linkedin.com/in/priyam-raj-a41873367/" target="_blank" rel="noopener">Posts on LinkedIn ↗</a></p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="wrap contact">
+      <h2 class="big">Let's build<br />something.</h2>
+      <p class="lead">Open to internships, hackathon teams and interesting problems. Reach me on LinkedIn or GitHub.</p>
+      <div class="links">
+        <a class="link-row" href="https://github.com/priyamraj201-art" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+        <a class="link-row" href="https://www.linkedin.com/in/priyam-raj-a41873367/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Priyam Raj · Pune, India</span>
+    <span>Thanks for scrolling all the way down :)</span>
+  </footer>
+  <a href="#top" class="to-top" aria-label="Back to top">↑</a>
+
+  <div class="lightbox" id="lightbox" hidden><button class="lb-close" aria-label="Close">✕</button><img alt="" /><p></p></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
